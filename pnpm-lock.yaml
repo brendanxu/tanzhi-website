@@ -100,13 +100,13 @@ importers:
         specifier: ^5.1.34
         version: 5.1.34
       autoprefixer:
-        specifier: ^10.4.21
+        specifier: ^10.4.16
         version: 10.4.21(postcss@8.5.5)
       postcss:
-        specifier: ^8.5.5
+        specifier: ^8.4.31
         version: 8.5.5
       tailwindcss:
-        specifier: ^3.4.17
+        specifier: ^3.4.0
         version: 3.4.17
       typescript:
         specifier: ^5.8.3
