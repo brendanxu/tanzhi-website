@@ -1,9 +1,12 @@
-// postcss.config.js
+/** @type {import('tailwindcss').Config} */
 module.exports = {
-  plugins: {
-    'postcss-import': {},
-    'tailwindcss/nesting': {},
-    '@tailwindcss/postcss': {},
-    autoprefixer: {},
+  content: [
+    './pages/**/*.{js,ts,jsx,tsx,mdx}',
+    './components/**/*.{js,ts,jsx,tsx,mdx}',
+    './app/**/*.{js,ts,jsx,tsx,mdx}',
+  ],
+  theme: {
+    extend: {},
   },
+  plugins: [],
 }
